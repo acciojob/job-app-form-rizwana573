@@ -10,7 +10,62 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<form id="jobForm" action="#" method="POST">
+	<div class="inputField">
+	<label for="name">Name</label>	
+	<input id="name" type="text" required></input>
+	</div>
 
+	<div class="inputField">
+	<label for="email">Email</label>	
+	<input id="email" type="email" required></input>
+	</div>
+
+	<div class="inputField">
+	<label for="">Gender</label>	
+	<input id="m1" type="radio" name="gender" value ="Male" required></input>
+	<label for="m1">Male</label>	
+		
+	<input id="fem" type="radio" name="gender" value ="Female"></input>
+	<label for="fem">Female</label>	
+
+	<input id="oth" type="radio" name="gender" value ="Others"></input>
+	<label for="oth">Others</label>	
+	</div>
+
+	<div class="inputField">
+		<label for="laptop"
+		<select id="laptop">
+		    <option value="Apple">Apple</option>
+			<option value="Asus">Asus</option>
+			<option value="HP">HP</option>
+		</select>
+	</div>
+
+	<div class="inputField">
+	<label for="age">Age</label>	
+	<input id="age" type="number" required></input>
+	</div>	
+
+	<div class="inputField">
+	<label for="dob">Date</label>	
+	<input id="dob" type="date" required></input>
+	</div>	
+
+	<div class="inputField">
+	<label for="password">Password</label>	
+	<input id="password" type="password" required></input>
+	</div>		
+
+	<div class="inputField">
+	<label for="portfolio">Portfolio URL</label>	
+	<input id="portfolio" type="url"></input>
+	</div>		
+
+	<div class="submitBtn">
+	<input type="submit" value="submit">Submit</input>
+	</div>
+</form>
 </body>
 
 </html>
